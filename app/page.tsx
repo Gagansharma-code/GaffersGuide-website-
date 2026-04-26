@@ -2,9 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { OpeningSequence } from "@/components/OpeningSequence";
 import { Hero } from "@/components/Hero";
 import { TransformationStages } from "@/components/TransformationStages";
-import { VirtualCoachTerminal } from "@/components/VirtualCoachTerminal";
-import { PrivacyMoat } from "@/components/PrivacyMoat";
-import { DownloadCTA } from "@/components/DownloadCTA";
+import { HowToUse } from "@/components/HowToUse";
 
 export default function Home() {
   return (
@@ -13,9 +11,7 @@ export default function Home() {
       <OpeningSequence />
       <Hero />
       <TransformationStages />
-      <VirtualCoachTerminal />
-      <PrivacyMoat />
-      <DownloadCTA />
+      <HowToUse />
     </main>
   );
 }
