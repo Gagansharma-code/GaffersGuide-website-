@@ -12,13 +12,7 @@ export function Navigation() {
           </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-8 text-sm text-chalk/70">
-          <a href="#engine" className="hover:text-neon transition-colors">Engine_v1.0</a>
-          <a href="#terminal" className="hover:text-neon transition-colors">Live_Terminal</a>
-          <button className="px-4 py-1.5 border border-slate-light text-chalk hover:bg-neon/10 hover:border-neon hover:text-neon transition-all">
-            Initialize
-          </button>
-        </div>
+
       </div>
     </nav>
   );

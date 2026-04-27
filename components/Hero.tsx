@@ -21,15 +21,7 @@ export function Hero() {
         
         {/* Text Side */}
         <div className="flex-1 text-center lg:text-left">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 mb-6 border border-slate-light bg-surface rounded text-neon font-mono text-xs uppercase tracking-widest"
-          >
-            <span className="w-2 h-2 bg-neon animate-pulse shadow-[0_0_8px_#00e676]" />
-            <span>AI Coaching Engine — v1.0</span>
-          </motion.div>
+
           
           <div className="relative inline-block mb-8">
             <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-sans font-bold tracking-tight leading-[1.1] uppercase flex flex-col items-center lg:items-start text-chalk">

@@ -10,8 +10,8 @@ export function ForDevelopers() {
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <div className="mb-20 text-center md:text-left">
           <h2 className="text-4xl md:text-5xl font-heading font-bold uppercase tracking-tight">
-            Built for Developers. <br className="hidden md:block"/>
-            <span className="text-neon">Powered by Gaffers Guide.</span>
+            Built for Developers <br className="hidden md:block"/>
+            <span className="text-neon">Powered by Gaffers Guide</span>
           </h2>
         </div>
 
