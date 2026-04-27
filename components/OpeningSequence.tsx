@@ -168,7 +168,7 @@ function AboutUs() {
             No guesswork, just pure geometric dominance.
           </p>
           <p>
-            Built by a team of computer science undergrads obsessed with the tactical side of football, our engine processes raw match footage securely on your local hardware. We built this to identify structural vulnerabilities and expose defensive gaps before the opposition even spots them, seamlessly aligning modern computational power with the art of coaching.
+            Built by a team of computer science students obsessed with the tactical side of football, our engine processes raw match footage securely on your local hardware. We built this to identify structural vulnerabilities and expose defensive gaps before the opposition even spots them, seamlessly aligning modern computational power with the art of coaching.
           </p>
         </motion.div>
 
