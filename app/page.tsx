@@ -6,7 +6,7 @@ import { ProductSuite } from "@/components/ProductSuite";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-pitch text-chalk selection:bg-neon/30 selection:text-neon overflow-x-hidden">
+    <main className="min-h-screen bg-pitch text-chalk selection:bg-neon/30 selection:text-neon overflow-clip">
       <Navigation />
       <OpeningSequence />
       <Hero />
