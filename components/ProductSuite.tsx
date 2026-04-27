@@ -35,7 +35,7 @@ export function ProductSuite() {
     const target = tab === "desktop" ? desktopRef.current : pypiRef.current;
     if (target) {
       // Scroll to element with offset for the sticky header
-      const y = target.getBoundingClientRect().top + window.scrollY - 260;
+      const y = target.getBoundingClientRect().top + window.scrollY - 350;
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
@@ -167,7 +167,7 @@ export function ProductSuite() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-6 text-center">
               <h2 className="text-4xl md:text-5xl font-heading font-bold uppercase tracking-wide mb-4">
-                Your Gaffers <span className="text-neon">Suite</span>
+                Your Gaffer's <span className="text-neon">Suite</span>
               </h2>
               <p className="text-base md:text-lg text-chalk/80 font-sans font-light max-w-2xl mx-auto hidden md:block">
                 Whether you want a zero-config desktop app or a modular Python backend, we have you covered.
@@ -248,7 +248,7 @@ export function ProductSuite() {
                 className="flex flex-col xl:flex-row gap-4"
               >
                 <a 
-                  href="https://github.com/Gagansharma-code/GaffersGuide-to-a-good-game/releases"
+                  href="https://github.com/amartyatatspandey/GaffersGuide-to-a-good-game.git"
                   target="_blank"
                   rel="noopener noreferrer" 
                   className="flex-1 inline-flex items-center justify-center px-6 py-4 bg-neon text-pitch font-mono font-bold text-sm rounded shadow-[0_0_20px_rgba(0,230,118,0.2)] hover:shadow-[0_0_30px_rgba(0,230,118,0.4)] transition-all"
