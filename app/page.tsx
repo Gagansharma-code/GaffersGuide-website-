@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { OpeningSequence } from "@/components/OpeningSequence";
 import { Hero } from "@/components/Hero";
 import { TransformationStages } from "@/components/TransformationStages";
-import { ForDevelopers } from "@/components/ForDevelopers";
+import { ProductSuite } from "@/components/ProductSuite";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <OpeningSequence />
       <Hero />
       <TransformationStages />
-      <ForDevelopers />
+      <ProductSuite />
     </main>
   );
 }
